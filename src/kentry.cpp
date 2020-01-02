@@ -4,6 +4,9 @@
 extern "C" void kernel_main(void) {
     terminal term = terminal();
     term.init();
-    term.write_string("lessss gooooo");
-	for (;;){}
+
+    for (;;){
+        term.write_string("lessss gooooo\n");
+        term.write_string("lessss gooooo\n");
+	}
 }
