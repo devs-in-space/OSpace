@@ -1,6 +1,6 @@
 [bits 32]
 
-global start
+global _start
 extern kernel_main
 section .mbHeader
 
@@ -17,6 +17,6 @@ MutliBootHeader:
 	dd FLAGS
 	dd CHECKSUM
 
-start:
+_start:
 	push ebx
 	call kernel_main
