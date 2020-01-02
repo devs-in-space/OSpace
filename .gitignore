@@ -1,3 +1,4 @@
-isodir/
+iso/
 os1
 os1.iso
+*.o
