@@ -32,7 +32,7 @@ namespace lib {
         T* new_arr = new T[++_size];
         copy_memory(new_arr, _arr, _size);
         new_arr[_size - 1] = item;
-        _arr->~T();
+        //TODO add free()
         _arr = new_arr;
     }
 }

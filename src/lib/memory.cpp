@@ -12,3 +12,7 @@ void copy_memory(void* destination, void* source, size_t n) {
         c_destination[i] = c_source[i];
     }
 }
+
+void* malloc(size_t size) {
+
+}

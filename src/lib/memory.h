@@ -6,4 +6,5 @@
 #include <stddef.h>
 
 void copy_memory(void* destination, void* source, size_t n);
+void* malloc(size_t size);
 #endif //OSPACE_MEMORY_H
